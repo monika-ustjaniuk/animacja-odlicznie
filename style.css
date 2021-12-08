@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+}
+
+
+.item {
+  background-color: black;
+  color: white;
+  font-size: 150px;
+  text-align: center;
+  height: 200px;
+  width: 300px;
+  position: absolute;
+ 
+  }
+  .counting0
+  {
+    font-size: 75px;
+  }
+
+.counting1, .counting2, .counting3, .counting4, .counting5, .counting6, .counting7, .counting8, .counting9, .counting10, .counting0 {
+  visibility: hidden;
+}
+
+@keyframes disappear {
+  0%{visibility: visible; }
+  100%{visibility: hidden;}
+}
+
+.counting10 {
+  animation-name: disappear;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+.counting9 {
+  animation-name: disappear;
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+ 
+}
+.counting8 {
+  animation-name: disappear;
+  animation-delay: 2s;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+
+}
+.counting7 {
+  animation-name: disappear;
+  animation-delay: 3s;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+ 
+}
+.counting6 {
+  animation-name: disappear;
+  animation-delay: 4s;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+ 
+}
+.counting5 {
+  animation-name: disappear;
+  animation-delay: 5s;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+ 
+}
+.counting4 {
+  animation-name: disappear;
+  animation-delay: 6s;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+
+}
+.counting3 {
+  animation-name: disappear;
+  animation-delay: 7s;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+
+}
+.counting2 {
+  animation-name: disappear;
+  animation-delay: 8s;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+
+}
+.counting1 {
+  animation-name: disappear;
+  animation-delay: 9s;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+
+}
+.counting0 {
+  animation-name: disappear;
+  animation-delay: 10s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+
+}
